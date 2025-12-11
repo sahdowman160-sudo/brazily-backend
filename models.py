@@ -29,10 +29,10 @@ class dachbord(Base):
     __tablename__ = "dachbord"
     
     id = Column(Integer, primary_key=True, index=True)
-    pc_name = Column(String, nullable=False)
-    food = Column(String, nullable=True)  # Make it optional
-    time = Column(String, nullable=True)  # Make it optional
-    price = Column(String, nullable=False)
+    pc_name = Column(String(50), nullable=False)
+    food = Column(String(50), nullable=True)  # Make it optional
+    time = Column(String(50), nullable=True)  # Make it optional
+    price = Column(String(50), nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow) 
 
 class open_pc(Base):
