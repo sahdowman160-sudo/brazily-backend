@@ -1,0 +1,6 @@
+fastapi>=0.95.0
+uvicorn[standard]>=0.23.0
+SQLAlchemy>=2.0.0
+pydantic>=1.10.0
+python-dotenv>=1.0.0
+pymysql>=1.0.0   # أو mysql-connector-python حسب driver في database.py
