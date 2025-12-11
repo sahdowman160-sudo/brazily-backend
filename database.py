@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 # إعدادات الاتصال بقاعدة البيانات
 db_user = "root"       # أو أي اسم مستخدم عندك
 db_pass = "AxWuiSNE7qNtvKV4OX8Gwhy5kYOd6JYvDZC4gy5sjup3djRp3PuV4u7ZydPihQ4g"       # ضع كلمة المرور هنا
-db_host = "y88g48w4gg8g880gkowkg4kw:"
+db_host = "y88g48w4gg8g880gkowkg4kw"
 db_name = "seif"
 
 # محرك قاعدة البيانات
