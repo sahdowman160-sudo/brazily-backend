@@ -26,5 +26,7 @@ app.include_router(dachbord.router)
 app.include_router(open_pc.router)
 app.include_router(open_pc.router)
 app.include_router(get_open.router)
-app.include_router(edittime.router)
+app.include_router(edittime.router
+app.include_router(get_dachbord.router)
+
 
